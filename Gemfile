@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby "2.0.0"
+
 gem 'rails', '3.2.15'
 
 # Bundle edge Rails instead:
@@ -7,6 +9,8 @@ gem 'rails', '3.2.15'
 
 gem 'sqlite3'
 
+gem 'pg', :group => :production
+gem 'sqlite3', :group => :development
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -14,13 +18,18 @@ group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
 
+  gem 'compass-rails' # you need this or you get an err
+  gem 'meta_search', '>= 1.1.0.pre'
+
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
+  gem 'therubyracer', :platforms => :ruby
+  gem "execjs"
 
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', "~> 2.3.0"
+gem 'rails_12factor'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
