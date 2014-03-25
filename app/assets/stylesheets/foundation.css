@@ -91,7 +91,13 @@ textarea {
 
 select {
   width: 100%; }
-
+  p.cor-um {
+	  color: #565454;
+	  text-align: center;
+  }
+  h2.cor-dois {
+	  color: #e1723b;
+  }
 /* Grid HTML Classes */
 .row {
   width: 100%;
@@ -1076,7 +1082,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-style: normal;
-  color: #222222;
+  color: #676766;
+  text-align: center;
   text-rendering: optimizeLegibility;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
@@ -1335,11 +1342,11 @@ button, .button {
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
   font-size: 1em;
-  background-color: #2ba6cb;
+  background-color: #e1723b;
   border-color: #2284a1;
   color: white; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #2284a1; }
+    background-color: #9d3c0c; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
@@ -1489,7 +1496,12 @@ button, .button {
     display: inline-block; } }
 /* Standard Forms */
 form {
-  margin: 0 0 1em; }
+  margin: 0 0 1em;
+  background: #e1723b; }
+
+  h2.form {
+	  color: #ffffff;
+  }
 
 /* Using forms within rows, we need to set some defaults */
 form .row .row {
