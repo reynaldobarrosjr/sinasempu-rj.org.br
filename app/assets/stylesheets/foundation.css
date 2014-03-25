@@ -35,7 +35,11 @@ body {
 
 a:hover {
   cursor: pointer; }
-
+  footer{
+	  background-color: #005d36;
+	  color: #ffffff;
+	  text-align: center;
+  }
 img,
 object,
 embed {
@@ -1343,7 +1347,7 @@ button, .button {
   padding-left: 1.5em;
   font-size: 1em;
   background-color: #e1723b;
-  border-color: #2284a1;
+  border-color: #ffffff;
   color: white; }
   button:hover, button:focus, .button:hover, .button:focus {
     background-color: #9d3c0c; }
