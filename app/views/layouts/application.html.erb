@@ -9,6 +9,17 @@
 <body>
 
 <%= yield %>
+  <script>
+      document.write('<script src=/assets/'
+        + ('__proto__' in {} ? 'zepto' : 'jquery')
+        + '.js><\/script>');
+    </script>
+  
+  
 
+
+  <script>
+    $(document).foundation();
+  </script>
 </body>
 </html>
