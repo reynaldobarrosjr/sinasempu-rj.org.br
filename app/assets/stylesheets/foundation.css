@@ -102,6 +102,10 @@ select {
   .cor-dois {
 	  color: #e1723b;
 	  text-align: center;
+	  font-weight: bold;
+  }
+  .cor-tres {
+	  color: #e1723b;
   }
 /* Grid HTML Classes */
 .row {
@@ -1085,7 +1089,7 @@ p {
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   color: #676766;
   text-align: center;
