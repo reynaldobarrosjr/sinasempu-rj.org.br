@@ -95,12 +95,13 @@ textarea {
 
 select {
   width: 100%; }
-  p.cor-um {
+  .cor-um {
 	  color: #565454;
 	  text-align: center;
   }
-  h2.cor-dois {
+  .cor-dois {
 	  color: #e1723b;
+	  text-align: center;
   }
 /* Grid HTML Classes */
 .row {
@@ -1501,12 +1502,13 @@ button, .button {
 /* Standard Forms */
 form {
   margin: 0 0 1em;
-  background: #e1723b; }
+   }
 
-  h2.form {
-	  color: #ffffff;
+  .form {
+  	background: #e1723b;
+	color: #ffffff;
   }
-
+ 
 /* Using forms within rows, we need to set some defaults */
 form .row .row {
   margin: 0 -0.5em; }
