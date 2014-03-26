@@ -35,11 +35,8 @@ body {
 
 a:hover {
   cursor: pointer; }
-  footer{
-	  background-color: #005d36;
-	  color: #ffffff;
-	  text-align: center;
-  }
+
+  
 img,
 object,
 embed {
@@ -95,6 +92,10 @@ textarea {
 
 select {
   width: 100%; }
+  
+  .footer {
+	  background: #005d36;
+  }
   .cor-um {
 	  color: #565454;
 	  text-align: center;
@@ -4748,3 +4749,10 @@ a.th {
     max-width: 500px; }
   .f-dropdown.large {
     max-width: 800px; }
+
+
+	footer{
+	  background: #005d36;
+	  color: #ffffff;
+	  text-align: center;
+	  }
