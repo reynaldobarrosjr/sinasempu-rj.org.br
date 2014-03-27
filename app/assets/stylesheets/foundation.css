@@ -4757,9 +4757,11 @@ a.th {
 	  }
 	  
 	  .large-pull-8 {
+		  right: 75%;
 		  left: auto;
 	  }
 	  
 	  .large-push-4 {
+		  left: 25%;
 		  right: auto;
 	  }
