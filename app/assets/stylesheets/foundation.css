@@ -36,7 +36,6 @@ body {
 a:hover {
   cursor: pointer; }
 
-  
 img,
 object,
 embed {
@@ -4755,4 +4754,12 @@ a.th {
 	  background: #005d36;
 	  color: #ffffff;
 	  text-align: center;
+	  }
+	  
+	  .large-pull-8 {
+		  left: auto;
+	  }
+	  
+	  .large-push-4 {
+		  right: auto;
 	  }
