@@ -1506,7 +1506,8 @@ button, .button {
     display: inline-block; } }
 /* Standard Forms */
 form {
-  margin: 0 0 1em;
+  margin: 0 0 0;
+  padding: 1em 0 1em;
    }
 
   .form {
@@ -4750,18 +4751,21 @@ a.th {
     max-width: 800px; }
 
 
-	footer{
+	.footer{
 	  background: #005d36;
 	  color: #ffffff;
 	  text-align: center;
+	  padding: 1em 0 1em;
 	  }
 	  
 	  .large-pull-8 {
+		  position: relative;
 		  right: 75%;
 		  left: auto;
 	  }
 	  
 	  .large-push-4 {
+		  position: relative;
 		  left: 25%;
 		  right: auto;
 	  }
