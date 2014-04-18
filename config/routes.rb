@@ -1,4 +1,14 @@
 SinasempuRjOrgBr::Application.routes.draw do
+  get "pages/index"
+
+  get "pages/objetivo"
+
+  get "pages/noticias"
+
+  get "pages/contato"
+
+  get "pages/historico"
+
   get "welcome/index"
 
   # The priority is based upon order of creation:
@@ -50,7 +60,15 @@ SinasempuRjOrgBr::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'welcome#index'
+  root :to => 'pages#index'
+  
+  match 'historico' => 'pages#historico'
+  match 'objetivos' => 'pages#objetivo'
+  
+  match 'noticias' => 'pages#noticias'
+  
+  match 'contato' => 'pages#contato'
+  
 
   # See how all your routes lay out with "rake routes"
 

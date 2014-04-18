@@ -3,9 +3,7 @@
       <!-- Title Area -->
       <li class="name">
         <h1>
-          <a href="#">
-            Top Bar Title
-          </a>
+          <%= link_to "home", root_path %>
         </h1>
       </li>
       <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
@@ -17,13 +15,13 @@
       <ul class="right">
         <li class="divider"></li>
         
-        <li><a href="#">histórico</a></li>
+        <li><%= link_to "histórico", "/historico" %></li>
         <li class="divider"></li>
-		<li><a href="#">objetivos</a></li>
+		<li><%= link_to "objetivos" , "/objetivos" %></li>
 	    <li class="divider"></li>
-		<li><a href="#">notícias</a></li>
+		<li><%= link_to "noticias" , "/noticias" %></li>
         <li class="divider"></li>
-		<li><a href="#">contato</a></li>
+		<li><%= link_to "contato" , "/contato" %></li>
         <li class="divider"></li>
         
       </ul>

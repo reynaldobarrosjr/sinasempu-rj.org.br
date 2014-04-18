@@ -1,3 +1,40 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$green: #005d36;
+$orange: #de7436;
+
+
+.top-bar {
+background: $green;
+overflow: visible;
+}
+
+.top-bar-section li a:not(.button) {
+padding: 0 15px;
+line-height: 45px;
+background: $green;
+}
+
+.top-bar-section li a:not(.button):hover {
+background: $orange;
+}
+
+h1{color:$orange;}
+
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+border-bottom: none;
+border-top: none;
+border-right: none;
+border-left: none;
+
+}
+
+h2 {
+font-size: 1.3125em;
+color:$green;
+text-align:left;
+}
+
+h3{color:$orange;font-weight:bolder;}
